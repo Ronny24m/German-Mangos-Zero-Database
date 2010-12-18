@@ -23,8 +23,8 @@
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.        #
 ################################################################################
 
-
-
+-- GMDB for 1.12.2
+-- Status 100% complete
 
 #####	areatrigger_teleport	#####
 
@@ -87,7 +87,9 @@ UPDATE areatrigger_teleport SET name='Stratholme Haupteingang 2 (Eingang)' WHERE
 UPDATE areatrigger_teleport SET name='Stratholme Nebenausgang (Ausgang)' WHERE id=2221;
 UPDATE areatrigger_teleport SET name='Der Flammenschlund (Ausgang)' WHERE id=2226;
 UPDATE areatrigger_teleport SET name='Der Flammenschlund (Eingang)' WHERE id=2230;
+UPDATE areatrigger_teleport SET name='Halle der Legenden - Ogrimmar (Eingang)' WHERE id=2527;
 UPDATE areatrigger_teleport SET name='Halle der Legenden - Ogrimmar (Ausgang)' WHERE id=2530;
+UPDATE areatrigger_teleport SET name='Halle der Champions - Sturmwind (Eingang)' WHERE id=2532;
 UPDATE areatrigger_teleport SET name='Halle der Champions - Sturmwind (Ausgang)' WHERE id=2534;
 UPDATE areatrigger_teleport SET name='Scholomance (Eingang)' WHERE id=2567;
 UPDATE areatrigger_teleport SET name='Scholomance (Ausgang)' WHERE id=2568;
