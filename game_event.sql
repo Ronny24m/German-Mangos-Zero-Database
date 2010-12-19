@@ -23,8 +23,8 @@
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.        #
 ################################################################################
 
-
-
+-- GMDB for 1.12.2
+-- Status 100% complete
 
 #####	game_event	#####
 
