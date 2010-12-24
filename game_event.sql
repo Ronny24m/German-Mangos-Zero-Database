@@ -39,6 +39,7 @@ UPDATE game_event SET description='Mondfest' WHERE entry=7;
 UPDATE game_event SET description='Liebe liegt in der Luft ' WHERE entry=8;
 UPDATE game_event SET description='Nobelgartenfest' WHERE entry=9;
 UPDATE game_event SET description='Kinderwoche' WHERE entry=10;
+UPDATE game_event SET description='Erntedankfest' WHERE entry=11;
 UPDATE game_event SET description='Schlotternächte' WHERE entry=12;
 UPDATE game_event SET description='Invasion der Elementare' WHERE entry=13;
 UPDATE game_event SET description='Anglerwettbewerb im Schlingendorntal Aufruf' WHERE entry=14;
@@ -50,11 +51,16 @@ UPDATE game_event SET description='Ruf zu den Waffen: Kriegshymnenschlucht!' WHE
 UPDATE game_event SET description='Ruf zu den Waffen: Arathibecken!' WHERE entry=20;
 UPDATE game_event SET description='Krieg von Ahn\'Qiraj' WHERE entry=22;
 UPDATE game_event SET description='Dunkelmond-Jahrmarkt wird aufgebaut (Wald von Elwynn)' WHERE entry=23;
+UPDATE game_event SET description='Unbekanntes Feiertags PVP Event' WHERE entry=24;
+UPDATE game_event SET description='Ruf zu den Waffen: Unbekanntes Event' WHERE entry=25;
+UPDATE game_event SET description='Braufest' WHERE entry=26;
 UPDATE game_event SET description='Nacht beginnt' WHERE entry=27;
+UPDATE game_event SET description='Nobelgartenfest' WHERE entry=28;
 UPDATE game_event SET description='Rand des Wahnsinns, Gri\'lek' WHERE entry=29;
 UPDATE game_event SET description='Rand des Wahnsinns, Hazza\'rah' WHERE entry=30;
 UPDATE game_event SET description='Rand des Wahnsinns, Renataki' WHERE entry=31;
 UPDATE game_event SET description='Rand des Wahnsinns, Wushoolay' WHERE entry=32;
-UPDATE game_event SET description='Erntedankfest' WHERE entry=33;
+UPDATE game_event SET description='Arenaturnier' WHERE entry=33;
+UPDATE game_event SET description='L70ETC Konzert' WHERE entry=34;
 
 SET NAMES 'latin1';
