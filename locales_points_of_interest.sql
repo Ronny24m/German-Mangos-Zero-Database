@@ -399,14 +399,12 @@ UPDATE locales_points_of_interest SET icon_name_loc3='Arenakampfmeister von Shat
 UPDATE locales_points_of_interest SET icon_name_loc3='Edelsteinhändler der Aldor' WHERE entry=361;
 UPDATE locales_points_of_interest SET icon_name_loc3='Edelsteinhändler der Seher' WHERE entry=362;
 */
-/* -- falsch da WOTLK Content
-UPDATE locales_points_of_interest SET icon_name_loc3='Leder- & Kettenrüstung von Dalaran' WHERE entry=365;
-*/
 /* fehlt noch in TBCDB
-UPDATE locales_points_of_interest SET icon_name_loc3='Tempel des Mondes' WHERE entry=364;
 UPDATE locales_points_of_interest SET icon_name_loc3='Kräuterkundige Pomeroy' WHERE entry=363;
+UPDATE locales_points_of_interest SET icon_name_loc3='Tempel des Mondes' WHERE entry=364;
 */
 /* falsch da WOTLK Content
+UPDATE locales_points_of_interest SET icon_name_loc3='Leder- & Kettenrüstung von Dalaran' WHERE entry=365;
 UPDATE locales_points_of_interest SET icon_name_loc3='Plattenrüstung & Schilde in Dalaran' WHERE entry=366;
 */
 /* -- falsch da TBC Content
