@@ -7,7 +7,7 @@
 #####          GGGGGGG     M        M     DDDDDDD    BBBBBBB               #####
 #####                             CREW                                     #####
 ################################################################################
-# Copyright (C) 2007-2010 GMDB <http://sourceforge.net/projects/gm-db>         #
+# Copyright (C) 2007-2011 GMDB <http://sourceforge.net/projects/gm-db>         #
 #                                                                              #
 # This program is free software: you can redistribute it and/or modify         #
 # it under the terms of the GNU General Public License as published by         #
@@ -147,12 +147,14 @@ UPDATE locales_gossip_menu_option SET option_text_loc3='Ich sehe mich nur mal um
 UPDATE locales_gossip_menu_option SET option_text_loc3='GOSSIP_OPTION_ARMORER' WHERE menu_id=685 AND id=1;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Ich möchte ein wenig in Euren Waren stöbern.' WHERE menu_id=686 AND id=0;
 UPDATE locales_gossip_menu_option SET option_text_loc3='GOSSIP_OPTION_ARMORER' WHERE menu_id=686 AND id=1;
-UPDATE locales_gossip_menu_option SET option_text_loc3='Ich möchte ein wenig in Euren Waren stöbern.' WHERE menu_id=688 AND id=0;
+UPDATE locales_gossip_menu_option SET option_text_loc3='Ich sehe mich nur mal um.' WHERE menu_id=688 AND id=0;
 UPDATE locales_gossip_menu_option SET option_text_loc3='GOSSIP_OPTION_QUESTGIVER' WHERE menu_id=688 AND id=1;
 UPDATE locales_gossip_menu_option SET option_text_loc3='GOSSIP_OPTION_ARMORER' WHERE menu_id=688 AND id=2;
+UPDATE locales_gossip_menu_option SET option_text_loc3='Ich sehe mich nur mal um.' WHERE menu_id=689 AND id=0;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Ich sehe mich nur mal um.' WHERE menu_id=692 AND id=0;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Ich sehe mich nur mal um.' WHERE menu_id=693 AND id=0;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Ich möchte einen Blick in mein Schließfach werfen.' WHERE menu_id=699 AND id=0;
+UPDATE locales_gossip_menu_option SET option_text_loc3='Ich sehe mich nur mal um.' WHERE menu_id=701 AND id=0;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Ich brauche einen Flug.' WHERE menu_id=704 AND id=0;
 UPDATE locales_gossip_menu_option SET option_text_loc3='GOSSIP_OPTION_QUESTGIVER' WHERE menu_id=704 AND id=1;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Die Bank' WHERE menu_id=721 AND id=0;
@@ -547,7 +549,7 @@ UPDATE locales_gossip_menu_option SET option_text_loc3='GOSSIP_OPTION_QUESTGIVER
 UPDATE locales_gossip_menu_option SET option_text_loc3='GOSSIP_OPTION_ARMORER' WHERE menu_id=3421 AND id=3;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Ich brauche noch eine Anstecknadel der Argentumdämmerung.' WHERE menu_id=3441 AND id=0;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Ich möchte etwas von Euch kaufen.' WHERE menu_id=3441 AND id=1;
-UPDATE locales_gossip_menu_option SET option_text_loc3='Die Bank' WHERE menu_id=3506 AND id=0;
+UPDATE locales_gossip_menu_option SET option_text_loc3='Bank' WHERE menu_id=3506 AND id=0;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Der Greifenmeister' WHERE menu_id=3506 AND id=1;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Der Gildenmeister' WHERE menu_id=3506 AND id=2;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Ein Gasthaus' WHERE menu_id=3506 AND id=3;
@@ -914,7 +916,7 @@ UPDATE locales_gossip_menu_option SET option_text_loc3='Faustwaffen' WHERE menu_
 UPDATE locales_gossip_menu_option SET option_text_loc3='Schusswaffen' WHERE menu_id=5270 AND id=3;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Streitkolben' WHERE menu_id=5270 AND id=4;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Wurfwaffen' WHERE menu_id=5270 AND id=5;
-UPDATE locales_gossip_menu_option SET option_text_loc3='Ich möchte eine Waffenausbildung' WHERE menu_id=5271 AND id=0;
+UPDATE locales_gossip_menu_option SET option_text_loc3='Ich möchte eine Waffenausbildung.' WHERE menu_id=5271 AND id=0;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Was können mir andere Waffenmeister beibringen?' WHERE menu_id=5271 AND id=1;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Bögen' WHERE menu_id=5274 AND id=0;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Armbrüste' WHERE menu_id=5274 AND id=1;
@@ -1805,6 +1807,7 @@ UPDATE locales_gossip_menu_option SET option_text_loc3='Wer ist Malygos?' WHERE 
 UPDATE locales_gossip_menu_option SET option_text_loc3='Ihr seid nicht alleine hierher gekommen?' WHERE menu_id=9297 AND id=0;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Was würde Kil\'jaeden mit einer sterblichen Frau anfangen wollen?' WHERE menu_id=9297 AND id=1;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Ich muss Euch noch etwas anders Fragen.' WHERE menu_id=9307 AND id=0;
+UPDATE locales_gossip_menu_option SET option_text_loc3='GOSSIP_OPTION_QUESTGIVER' WHERE menu_id=9417 AND id=0;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Bitte erlaubt mir, auf einem der Drachen zu den Gemächern der Königin im obersten Stockwerk des Tempels zu reiten.' WHERE menu_id=9455 AND id=0;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Habt Ihr vielleicht einen Drachen übrig, der mich zu Lord Afrasastrasz in der Mitte des Tempels bringen kann?' WHERE menu_id=9455 AND id=1;
 UPDATE locales_gossip_menu_option SET option_text_loc3='GOSSIP_OPTION_QUESTGIVER' WHERE menu_id=9455 AND id=2;
@@ -1872,6 +1875,7 @@ UPDATE locales_gossip_menu_option SET option_text_loc3='Wohin kann ich fliegen?'
 UPDATE locales_gossip_menu_option SET option_text_loc3='GOSSIP_OPTION_QUESTGIVER' WHERE menu_id=9584 AND id=1;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Warum wurde ich zu dieser speziellen Zeit und an diesen speziellen Ort zurückgeschickt?' WHERE menu_id=9586 AND id=0;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Ja, bitte!' WHERE menu_id=9586 AND id=1;
+UPDATE locales_gossip_menu_option SET option_text_loc3='Chromie, Ihr und ich wissen beide, was in dieser Zeitlinie passieren wird. Wir haben das alles schon mal gesehen. Könntet Ihr uns ein wenig vorspringen lassen, dahin, wo wirklich was los ist?' WHERE menu_id=9586 AND id=2;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Was war die Entscheidung?' WHERE menu_id=9594 AND id=0;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Also, wie plant der ewige Drachenschwarm einzugreifen?' WHERE menu_id=9595 AND id=0;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Wyrmköder, hm? Los, bringt uns Eissturm!' WHERE menu_id=9603 AND id=0;
@@ -1906,10 +1910,13 @@ UPDATE locales_gossip_menu_option SET option_text_loc3='Informationen zur dualen
 UPDATE locales_gossip_menu_option SET option_text_loc3='Ich bin auf der Suche nach Ausbildung, Amal\'thazad' WHERE menu_id=9693 AND id=0;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Ich möchte meine Talente verlernen.' WHERE menu_id=9693 AND id=1;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Informationen zur dualen Talentspezialisierung.' WHERE menu_id=9693 AND id=2;
+UPDATE locales_gossip_menu_option SET option_text_loc3='Ich bin soweit.' WHERE menu_id=9695 AND id=0;
+UPDATE locales_gossip_menu_option SET option_text_loc3='Für Lordaeron!' WHERE menu_id=9696 AND id=0;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Ich benötige Reparaturen und Vorräte, Corvus.' WHERE menu_id=9706 AND id=0;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Nun, wie geht\'s von hier aus weiter?' WHERE menu_id=9708 AND id=0;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Ich möchte mich dem Kampf anschließen!' WHERE menu_id=9711 AND id=0;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Rhunok, ich muss wieder mit Eurem Mojo erfüllt werden.' WHERE menu_id=9715 AND id=0;
+UPDATE locales_gossip_menu_option SET option_text_loc3='GOSSIP_OPTION_QUESTGIVER' WHERE menu_id=9720 AND id=1;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Östlicher Zeppelinturm' WHERE menu_id=9727 AND id=0;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Westlicher Zeppelinturm' WHERE menu_id=9727 AND id=1;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Süßes oder Saures!' WHERE menu_id=9733 AND id=0;
@@ -1938,6 +1945,7 @@ UPDATE locales_gossip_menu_option SET option_text_loc3='Wohin kann ich fliegen?'
 UPDATE locales_gossip_menu_option SET option_text_loc3='Wohin kann ich fliegen?' WHERE menu_id=9785 AND id=0;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Ich bin mir sicher. Bitte fahrt fort.' WHERE menu_id=9791 AND id=0;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Ich bin bereit, Hochlord. Die Belagerung der Kapelle des hoffnungsvollen Lichts kann beginnen!' WHERE menu_id=9795 AND id=0;
+UPDATE locales_gossip_menu_option SET option_text_loc3='GOSSIP_OPTION_QUESTGIVER' WHERE menu_id=9795 AND id=1;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Ich möchte etwas von Euch kaufen.' WHERE menu_id=9798 AND id=0;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Zeigt mir, was Ihr im Angebot habt.' WHERE menu_id=9804 AND id=0;
 UPDATE locales_gossip_menu_option SET option_text_loc3='GOSSIP_OPTION_QUESTGIVER' WHERE menu_id=9804 AND id=1;
@@ -2090,6 +2098,7 @@ UPDATE locales_gossip_menu_option SET option_text_loc3='Bildet mich aus.' WHERE 
 UPDATE locales_gossip_menu_option SET option_text_loc3='Bildet mich aus.' WHERE menu_id=10117 AND id=0;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Bildet mich aus.' WHERE menu_id=10118 AND id=0;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Gebt mir einen Bomber!' WHERE menu_id=10119 AND id=0;
+UPDATE locales_gossip_menu_option SET option_text_loc3='Ich möchte ein wenig Eure Ware betrachten.' WHERE menu_id=10122 AND id=0;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Erklärt mir den Weg zum Friedhof der Festung.' WHERE menu_id=10128 AND id=0;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Erklärt mir den Weg zum Friedhof des Versunkenen Rings.' WHERE menu_id=10128 AND id=1;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Zeigt mir den Weg zum Friedhof des Zerbrochenen Tempels.' WHERE menu_id=10128 AND id=2;
@@ -2371,8 +2380,10 @@ UPDATE locales_gossip_menu_option SET option_text_loc3='Ich würde mir Eure Ware
 UPDATE locales_gossip_menu_option SET option_text_loc3='Wie lautet Euer Plan?' WHERE menu_id=11191 AND id=0;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Was ist hier los?' WHERE menu_id=11194 AND id=0;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Bei allem gebührenden Respekt, Euer Hoheit, aber wir schaffen das alleine.' WHERE menu_id=11203 AND id=0;
+UPDATE locales_gossip_menu_option SET option_text_loc3='Nordend benötigt Eure Aufmerksamkeit, Hochlord Höllschrei. Wir werden uns ohne Eure Hilfe um den Lichkönig und seine Schergen kümmern.' WHERE menu_id=11206 AND id=0;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Betretet die Flugmaschine.' WHERE menu_id=11211 AND id=0;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Bringt mich zu Mekkadrill!' WHERE menu_id=11211 AND id=1;
+UPDATE locales_gossip_menu_option SET option_text_loc3='Ja, bitte!' WHERE menu_id=11277 AND id=0;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Landros Geschenkkiste' WHERE menu_id=11342 AND id=0;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Instantstatue' WHERE menu_id=11342 AND id=1;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Flammender Hippogryph' WHERE menu_id=11342 AND id=2;
@@ -2395,5 +2406,6 @@ UPDATE locales_gossip_menu_option SET option_text_loc3='Ich möchte einen Blick 
 UPDATE locales_gossip_menu_option SET option_text_loc3='Ich möchte ein wenig Eure Waren betrachten.' WHERE menu_id=20000 AND id=1;
 UPDATE locales_gossip_menu_option SET option_text_loc3='GOSSIP_OPTION_ARMORER' WHERE menu_id=20000 AND id=2;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Ich glaube an Euch.' WHERE menu_id=20001 AND id=0;
+UPDATE locales_gossip_menu_option SET option_text_loc3='GOSSIP_OPTION_QUESTGIVER' WHERE menu_id=20003 AND id=1;
 
 SET NAMES 'latin1';
